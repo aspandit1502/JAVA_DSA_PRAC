@@ -9,8 +9,8 @@ public class returnmeth
     {
         int a=20;
         int b=30;
-        int sum=a+b;
-        return(sum);
+        int adn=a+b;
+        return(adn);
         //System.out.println("the sum is :"+(a+b));
 
     }

@@ -2,7 +2,8 @@ public class swap_value
 {
     public static void main(String[] args )
     {
-        swap(10,20);
+        int a=45; int b=90;
+        swap(a,b);
     }
      
     static void swap(int a, int b)

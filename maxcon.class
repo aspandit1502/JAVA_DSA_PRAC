@@ -1,0 +1,32 @@
+// Source code is decompiled from a .class file using FernFlower decompiler (from Intellij IDEA).
+import java.util.Scanner;
+
+public class maxcon {
+   public maxcon() {
+   }
+
+   public static void main(String[] var0) {
+      Scanner var1 = new Scanner(System.in);
+      int[] var2 = new int[6];
+      int var3 = 0;
+      int var4 = 0;
+      System.out.println("enter the array ele");
+
+      for(int var5 = 0; var5 < var2.length; ++var5) {
+         var2[var5] = var1.nextInt();
+      }
+
+      for(int var6 = 0; var6 < var2.length; ++var6) {
+         if (var2[var6] == 1) {
+            ++var3;
+            if (var3 > var4) {
+               var4 = var3;
+            }
+         } else {
+            var3 = 0;
+         }
+      }
+
+      System.out.println("the max consecutive no of 1's in your array is: " + var4);
+   }
+}
